@@ -19,7 +19,7 @@ public class FindInRotated2 {
                 return mid - 1;
             }
             //as we know that the array can contain duplicate values so if the next element of the array is equal to the
-            //mid-element we keep on changing the start point so as to find the last of the biggest element which are
+            //mid-element we keep on changing the start point, to find the last of the biggest element which are
             //equal
             // Case 3: duplicates
             if (nums[start] == nums[mid] && nums[mid] == nums[end]) {
