@@ -1,7 +1,5 @@
 package com.SeptemberArrived.two_dimensionalArray;
 
-import java.util.Arrays;
-
 public class Checking {
     public boolean searchMatrix(int[][] matrix, int target) {
         int row = 0;
