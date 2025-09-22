@@ -6,16 +6,16 @@ public class Split {
         int end = 0;
 
         for(int i : nums){
-            start = Math.max(start, i); //inn the end of the loop it will contain the
+            start = Math.max(start, i); //in the end of the loop it will contain the
             //maximum value from the array
             end += i;
         }
 
         while(start < end){
-            //trying the midd as the potential answer
+            //trying the mid as the potential answer
             int mid = start + (end - start) / 2;
 
-            //calculate the number of picies the array can be divided
+            //calculate the number of pieces the array can be divided
             int sum = 0;
             int pieces = 1;
             for(int num : nums){
