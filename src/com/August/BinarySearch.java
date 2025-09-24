@@ -1,4 +1,4 @@
-package com.First_program;
+package com.August;
 
 public class BinarySearch {
     public static void main(String[] args) {

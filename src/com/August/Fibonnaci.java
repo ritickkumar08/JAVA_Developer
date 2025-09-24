@@ -1,4 +1,4 @@
-package com.First_program;
+package com.August;
 
 import java.util.Scanner;
 
