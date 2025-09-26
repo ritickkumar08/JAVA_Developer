@@ -25,7 +25,7 @@ public class CyclicSort {
         arr[second] = temp;
     }
     public static void main(String[] args) {
-        int[] arr = {5,5,4,3,3,2,1};
+        int[] arr = {4,3,2,7,8,2,3,1};
 
        CyclicSort ob = new CyclicSort();
        int[] sorted = ob.sortAscending(arr);

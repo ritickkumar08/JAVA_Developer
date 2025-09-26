@@ -16,7 +16,7 @@ public class FindMissingNumber {
             }
         }
         //as we know that the array is sorted and the elements are placed on the respective equal index
-        for(int j = 0 ;j < nums.length ; j++){
+        for(int j = 0 ; j < n ; j++){
             if(nums[j] != j){//whenever the element is not equal to the index return the index
                 missing = j;
                 break;
