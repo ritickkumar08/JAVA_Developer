@@ -1,4 +1,4 @@
-package com.August;
+package com.SeptemberArrived;
 
 public class FindMissingNumber {
     public int missingNumber(int[] nums){

@@ -9,7 +9,7 @@
 //Output: 2
 
 
-package com.August;
+package com.SeptemberArrived;
 
 class FindTheDuplicateElement {
     public int findDuplicate(int[] nums) {
