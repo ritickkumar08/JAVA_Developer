@@ -1,4 +1,4 @@
-package com.August;
+package com.SeptemberArrived;
 
 import java.util.Arrays;
 
@@ -23,14 +23,15 @@ public class InsertionSort {
     //in this function we are doing the same thing with the help of while loop
     private int[] sortWhile(int[] arr){
         int n = arr.length;
-        for(int i = 0 ; i < n - 1 ; i++){
+        for(int i = 01; i < n ; i++){
 //           int key = arr[i];
-           int j = i+1;
+           int j = i;
 
-           while(arr[j] < arr[j-1]){
+           while(j > 0 && arr[j] < arr[j - 1]){
                int temp = arr[j];
-               arr[j] = arr[j-1];
-               arr[j-1] = temp;
+               arr[j] = arr[j - 1];
+               arr[j - 1] = temp;
+               j--;
            }
         }
         return arr;
@@ -50,7 +51,7 @@ public class InsertionSort {
         return arr;
     }
     public static void main(String[] args) {
-        int[] arr = {12, 11, 13, 5, 6};
+        int[] arr = {3,2,3,1,2,4,5,5,6};
 
         InsertionSort ob = new InsertionSort();
         int[] sorted = ob.sort(arr);
