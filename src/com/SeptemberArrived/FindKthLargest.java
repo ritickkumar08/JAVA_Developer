@@ -29,7 +29,7 @@ class FindKthLargest {
 
     public static void main(String[] args) {
         int[] arr = {3,2,1,5,6,4};
-        int k = 2;
+        int k = 3;
 
         FindKthLargest ob = new FindKthLargest();
         int number = ob.findKthLargest(arr,k);

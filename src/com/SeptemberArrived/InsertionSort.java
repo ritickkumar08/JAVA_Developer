@@ -23,7 +23,7 @@ public class InsertionSort {
     //in this function we are doing the same thing with the help of while loop
     private int[] sortWhile(int[] arr){
         int n = arr.length;
-        for(int i = 01; i < n ; i++){
+        for(int i = 1; i < n ; i++){
 //           int key = arr[i];
            int j = i;
 
