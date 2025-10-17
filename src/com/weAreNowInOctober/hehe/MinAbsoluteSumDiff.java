@@ -1,4 +1,4 @@
-package com.weAreNowInOctober;
+package com.weAreNowInOctober.hehe;
 //You are given two positive integer arrays nums1 and nums2, both of length n.
 //The absolute sum difference of arrays nums1 and nums2 is defined as the sum of |nums1[i] - nums2[i]|
 //for each 0 <= i < n (0-indexed).
