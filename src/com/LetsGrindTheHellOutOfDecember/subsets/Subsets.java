@@ -30,6 +30,7 @@ class Subsets {
         for(List<Integer> list  : recurssionResult){
             List<Integer> newList = new ArrayList<>(list);
             newList.add(0,element);
+
             myResult.add(newList);
         }
 

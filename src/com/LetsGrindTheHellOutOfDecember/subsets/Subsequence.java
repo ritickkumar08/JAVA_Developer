@@ -25,6 +25,7 @@ public class Subsequence {
         for(String resultStr : recurssionResult){
             myResult.add(resultStr);
             myResult.add(ch + resultStr);
+            myResult.add((int)ch + resultStr);
         }
 
         return  myResult;
