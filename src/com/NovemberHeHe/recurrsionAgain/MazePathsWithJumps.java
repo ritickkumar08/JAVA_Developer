@@ -23,7 +23,7 @@ public class MazePathsWithJumps {
         for(int move = 1 ; move <= dc - sc ; move++){
             ArrayList<String> hpaths = mazePathsWithJumps(sr,sc+move,dr,dc);
             for(String path : hpaths){
-                paths.add("h" + " " + path);
+                paths.add("h" + " " + path + " " + move);
             }
         }
         //vertical move
