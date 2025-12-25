@@ -1,4 +1,4 @@
-package com.LetsGrindTheHellOutOfDecember.Recurssion;
+package com.LetsGrindTheHellOutOfDecember.Recurssion.LetterCombos;
 
 import java.util.ArrayList;
 import java.util.List;
