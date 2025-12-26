@@ -1,4 +1,4 @@
-package StriverSheet.December.Arraysss;
+package StriverA2z;
 
 import java.util.Arrays;
 
