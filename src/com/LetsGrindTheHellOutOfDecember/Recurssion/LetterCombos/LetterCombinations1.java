@@ -5,7 +5,7 @@ import java.util.List;
 
 class LetterCombinations1 {
     public static void main(String[] args) {
-        String number = "23";
+        String number = "123";
         LetterCombinations1 ob = new LetterCombinations1();
         List<String> combinations = ob.letterCombinations(number);
         System.out.println(combinations);
