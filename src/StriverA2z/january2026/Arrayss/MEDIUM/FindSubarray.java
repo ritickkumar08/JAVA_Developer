@@ -1,4 +1,4 @@
-package StriverA2z.january2026.Arrayss;
+package StriverA2z.january2026.Arrayss.MEDIUM;
 //Given an array of integers arr[], find the contiguous subarray with the maximum sum that contains only non-negative
 //numbers. If multiple subarrays have the same sum, return the one with the smallest starting index.
 //If the array contains only negative numbers, return -1.

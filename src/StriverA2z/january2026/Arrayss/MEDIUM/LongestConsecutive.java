@@ -1,6 +1,5 @@
-package StriverA2z.january2026.Arrayss;
+package StriverA2z.january2026.Arrayss.MEDIUM;
 
-import java.util.Arrays;
 import java.util.HashSet;
 
 class LongestConsecutive {

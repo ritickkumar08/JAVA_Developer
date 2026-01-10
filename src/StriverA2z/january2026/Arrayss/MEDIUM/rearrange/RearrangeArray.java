@@ -1,4 +1,4 @@
-package StriverA2z.january2026.Arrayss.rearrange;
+package StriverA2z.january2026.Arrayss.MEDIUM.rearrange;
 
 import java.util.Arrays;
 

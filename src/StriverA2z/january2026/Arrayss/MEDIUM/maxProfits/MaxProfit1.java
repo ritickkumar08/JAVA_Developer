@@ -1,4 +1,4 @@
-package StriverA2z.january2026.Arrayss.maxProfits;
+package StriverA2z.january2026.Arrayss.MEDIUM.maxProfits;
 
 class MaxProfit1 {
     public static void main(String[] args) {

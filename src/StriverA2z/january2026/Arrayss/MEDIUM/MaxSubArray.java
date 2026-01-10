@@ -1,4 +1,4 @@
-package StriverA2z.january2026.Arrayss;
+package StriverA2z.january2026.Arrayss.MEDIUM;
 
 class MaxSubArray {
     public static void main(String[] args) {
