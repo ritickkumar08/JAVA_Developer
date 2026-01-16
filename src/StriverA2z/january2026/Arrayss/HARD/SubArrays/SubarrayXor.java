@@ -18,9 +18,14 @@ class SubarrayXor {
         int xor = 0;
         for (int i = 0; i < arr.length; i++) {
             xor ^= arr[i];
-            if(xor == k){
-                number ++;
+
+            int target = xor^k;
+
+            if(map.containsKey(target)){
+                number += map.get(target);
             }
+
+            map.put(xor, map.getOrDefault(xor,0)+1);
         }
 
         return number;
