@@ -18,10 +18,18 @@ class SearchInRotated {
 
             if(arr[mid] == key) return mid;
 
-            if(key < arr[mid] && key <arr[start]){
-                start = mid+1;
+            if (arr[start] <= arr[mid]){
+                if (arr[start] <= key && arr[mid] > key){
+                    end = mid-1;
+                }else {
+                    start = mid+1;
+                }
             }else {
-                end = mid-1;
+                if(arr[mid] < key && arr[end] >= key){
+                    start = mid+1;
+                }else {
+                    end = mid-1;
+                }
             }
         }
         return -1;
