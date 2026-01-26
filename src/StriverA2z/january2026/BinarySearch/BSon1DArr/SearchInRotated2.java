@@ -1,4 +1,4 @@
-package StriverA2z.january2026.BinarySearch;
+package StriverA2z.january2026.BinarySearch.BSon1DArr;
 
 class SearchInRotated2 {
     public static void main(String[] args) {

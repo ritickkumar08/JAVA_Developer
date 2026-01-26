@@ -1,6 +1,4 @@
-package StriverA2z.january2026.BinarySearch;
-
-import java.util.Set;
+package StriverA2z.january2026.BinarySearch.BSon1DArr;
 
 class Search {
     public static void main(String[] args) {

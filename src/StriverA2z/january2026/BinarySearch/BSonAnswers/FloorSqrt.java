@@ -1,4 +1,4 @@
-package StriverA2z.january2026.BinarySearch;
+package StriverA2z.january2026.BinarySearch.BSonAnswers;
 
 class FloorSqrt {
     public static void main(String[] args) {

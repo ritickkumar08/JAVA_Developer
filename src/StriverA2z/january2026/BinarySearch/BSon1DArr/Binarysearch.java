@@ -1,4 +1,4 @@
-package StriverA2z.january2026.BinarySearch;
+package StriverA2z.january2026.BinarySearch.BSon1DArr;
 
 class Binarysearch {
     public static void main(String[] args) {
