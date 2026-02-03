@@ -1,4 +1,4 @@
-package com.DailyProblems;
+package DailyProblems;
 
 class MaximumProfit {
     public static void main(String[] args) {

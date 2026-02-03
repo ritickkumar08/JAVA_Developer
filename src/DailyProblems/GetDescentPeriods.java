@@ -1,6 +1,4 @@
-package com.DailyProblems;
-
-import java.util.Arrays;
+package DailyProblems;
 
 class GetDescentPeriods {
     public static void main(String[] args) {
