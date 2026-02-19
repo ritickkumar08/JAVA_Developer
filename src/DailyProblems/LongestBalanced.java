@@ -12,10 +12,11 @@ class LongestBalanced {
     public int longestBalanced(String s) {
         HashMap<String, Integer> map = new HashMap<>();
 
-        for (int i = 0; i < s.length(); i++) {
-            if(map.containsKey(s.charAt(i))){
-                map.get(charAt(i))
-            }
-        }
+//        for (int i = 0; i < s.length(); i++) {
+//            if(map.containsKey(s.charAt(i))){
+//                map.get(charAt(i))
+//            }
+//        }
+        return 0;
     }
 }
