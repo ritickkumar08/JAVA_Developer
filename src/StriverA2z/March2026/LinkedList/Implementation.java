@@ -46,6 +46,20 @@ class Implementation {
         return val;
     }
 
+    //insert using recurssion
+    public void insertWithRecurssion(int value, int index){
+        head = inserRecurssion(value, index, head);
+    }
+    private Node inserRecurssion(int val, int index, Node node){
+        if(index == 0){
+            Node temp = new Node(val, node);
+            size++;
+            return temp;
+        }
+        node.next = inserRecurssion(val, index-1, node.next);
+        return node;
+    }
+
     public void deleteLast(){
         if(head == null){
             return;
@@ -107,6 +121,7 @@ class Main{
         list.insertLast(24);
         list.deleteLast();
         list.deletStart();
+        list.insertWithRecurssion(4,3);
 
         list.printList();
     }
