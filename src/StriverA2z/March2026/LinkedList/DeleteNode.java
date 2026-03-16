@@ -1,10 +1,10 @@
 package StriverA2z.March2026.LinkedList;
 
 
-class ListNode {
+class ListNode55 {
     int val;
     ListNode next;
-    ListNode(int x) { val = x; }
+    ListNode55(int x) { val = x; }
 }
 
 class DeleteNode {

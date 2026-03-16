@@ -1,18 +1,18 @@
 package StriverA2z.March2026.LinkedList;
 
 
-class ListNode1 {
+class ListNode2 {
     int val;
     ListNode next;
-    ListNode1() {}
-    ListNode1(int val) { this.val = val; }
-    ListNode1(int val, ListNode next) { this.val = val; this.next = next; }
+    ListNode2() {}
+    ListNode2(int val) { this.val = val; }
+    ListNode2(int val, ListNode next) { this.val = val; this.next = next; }
 }
-class ReverseList {
+public class ReverseList1 {
     public static void main(String[] args) {
 
     }
-    public ListNode reverseList(ListNode head) {
+    public ListNode reverseList(ListNode head){
         ListNode prev = null;
         ListNode curr = head;
 
