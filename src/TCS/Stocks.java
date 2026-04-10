@@ -22,7 +22,5 @@ public class Stocks {
         }
         return maxProfit;
     }
-    private int stocks1(int[] prices) {
 
-    }
 }
