@@ -20,7 +20,7 @@ public class CustomStack {
             return false;
         }
         ptr++;
-        data[ptr++] = item;
+        data[ptr] = item;
         return true;
     }
 
