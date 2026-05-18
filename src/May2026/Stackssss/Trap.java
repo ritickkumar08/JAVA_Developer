@@ -66,7 +66,7 @@ class Trap {
         }
         return total;
     }
-    public int trap(int[] height) {
+    public int trap3(int[] height) {
         int n = height.length;
         int lMax = 0, rMax = 0, total = 0;
         int left = 0;
@@ -90,5 +90,32 @@ class Trap {
             }
         }
         return total;
+    }
+    public int trap(int[] height) {
+        int n = height.length;
+        int left = 0;
+        int right = n - 1;
+        int lMax = 0;
+        int rMax = 0;
+        int trapped = 0;
+
+        while(left < right){
+            if (height[left] <= height[right]){
+                if (lMax < height[left]){
+                    lMax = height[left];
+                }else {
+                    trapped += lMax - height[left];
+                }
+                left++;
+            }else {
+                if (rMax < height[right]){
+                    rMax = height[right];
+                }else {
+                    trapped += rMax - height[right];
+                }
+                right--;
+            }
+        }
+        return trapped;
     }
 }
