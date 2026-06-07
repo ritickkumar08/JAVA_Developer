@@ -9,7 +9,7 @@ class LongestOnes {
         int ans =  ob.longestOnes(nums, k);
         System.out.println(ans);
     }
-    public int longestOnes1(int[] nums, int k) {
+    public int longestOnes(int[] nums, int k) {
         int maxLength = 0;
 
         for (int i = 0; i < nums.length; i++) {
@@ -25,7 +25,7 @@ class LongestOnes {
         }
         return maxLength;
     }
-    public int longestOnes(int[] nums, int k) {
+    public int longestOnes1(int[] nums, int k) {
         int maxLength = 0;
         int left = 0;
         int right = 0;
