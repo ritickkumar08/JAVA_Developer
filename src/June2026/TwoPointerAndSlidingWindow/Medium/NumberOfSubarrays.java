@@ -1,4 +1,4 @@
-package June2026.TwoPointerAndSlidingWindow;
+package June2026.TwoPointerAndSlidingWindow.Medium;
 
 import java.util.HashMap;
 

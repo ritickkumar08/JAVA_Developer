@@ -1,4 +1,4 @@
-package June2026.TwoPointerAndSlidingWindow;
+package June2026.TwoPointerAndSlidingWindow.Medium;
 
 class MaxScore {
     public static void main(String[] args) {

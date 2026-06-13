@@ -1,4 +1,4 @@
-package June2026.TwoPointerAndSlidingWindow;
+package June2026.TwoPointerAndSlidingWindow.Medium;
 
 class NumSubarraysWithSum {
     public static void main(String[] args) {

@@ -1,6 +1,4 @@
-package June2026.TwoPointerAndSlidingWindow;
-
-import java.util.HashMap;
+package June2026.TwoPointerAndSlidingWindow.Medium;
 
 class CharacterReplacement {
     public static void main(String[] args) {
