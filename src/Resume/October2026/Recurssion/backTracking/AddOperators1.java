@@ -1,14 +1,14 @@
-package ReStart.Recurssion.backTracking;
+package Resume.October2026.Recurssion.backTracking;
 
 import java.util.ArrayList;
 import java.util.List;
 
-class AddOperators {
+class AddOperators1 {
     public static void main(String[] args) {
         String num = "123";
         int target = 6;
 
-        AddOperators ob = new AddOperators();
+        AddOperators1 ob = new AddOperators1();
         List<String> answer = ob.addOperators(num, target);
         System.out.println(answer);
     }

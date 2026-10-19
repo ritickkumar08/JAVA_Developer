@@ -1,4 +1,4 @@
-package ReStart.Recurssion.MazeProblems;
+package Resume.October2026.Recurssion.MazeProblems;
 
 import java.util.Arrays;
 
